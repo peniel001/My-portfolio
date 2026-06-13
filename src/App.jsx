@@ -1,25 +1,10 @@
 import photo from './assets/profile.jpeg'
+import './App.css'
 
 function App () {
   return (
-    <div
-      style={{
-        textAlign: 'center',
-        padding: '40px'
-      }}
-    >
-      <img
-        src={photo}
-        alt='Profile'
-        style={{
-          width: '200px',
-          height: '200px',
-          borderRadius: '50%', // Makes the image round
-          objectFit: 'cover', // Prevents stretching
-          border: '4px solid white',
-          backgroundColor: '#000000' // Optional: adds a background color around the image
-        }}
-      />
+    <div className='Wrapper'>
+      <img src={photo} alt='Profile'/>
       <h1>Hi i'm Peniel</h1>
 
       <div className='github'>
